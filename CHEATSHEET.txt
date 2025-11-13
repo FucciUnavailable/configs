@@ -1,0 +1,62 @@
+╔════════════════════════════════════════════════════════════════════╗
+║                    🚀 QUICK REFERENCE CARD 🚀                      ║
+╠════════════════════════════════════════════════════════════════════╣
+║                                                                    ║
+║  NEOVIM ESSENTIALS (Leader = Space)                               ║
+║  ────────────────────────────────────────                         ║
+║  Space e      │ Toggle file explorer                              ║
+║  Space ff     │ Find files                                        ║
+║  Space fg     │ Find text in files                                ║
+║  Space fb     │ Browse buffers                                    ║
+║  gcc          │ Comment line                                      ║
+║  gd           │ Go to definition                                  ║
+║  K            │ Show documentation                                ║
+║  Ctrl+Space   │ Trigger autocomplete                              ║
+║  Tab/S-Tab    │ Navigate suggestions                              ║
+║                                                                    ║
+║  AI COMPLETION (Codeium - FREE!)                                  ║
+║  ────────────────────────────────────                             ║
+║  Ctrl+g       │ Accept AI suggestion                              ║
+║  Ctrl+;       │ Next suggestion                                   ║
+║  Ctrl+,       │ Previous suggestion                               ║
+║  Ctrl+x       │ Clear suggestion                                  ║
+║                                                                    ║
+║  TMUX (Prefix = Ctrl+Space)                                       ║
+║  ────────────────────────────────                                 ║
+║  Prefix |     │ Split horizontal                                  ║
+║  Prefix -     │ Split vertical                                    ║
+║  Prefix hjkl  │ Navigate panes                                    ║
+║  Prefix c     │ New window                                        ║
+║  Prefix n/p   │ Next/prev window                                  ║
+║  Prefix d     │ Detach session                                    ║
+║  Prefix r     │ Reload config                                     ║
+║                                                                    ║
+║  BASH SHORTCUTS                                                   ║
+║  ────────────────────────────────                                 ║
+║  Ctrl+r       │ Fuzzy command history                             ║
+║  Ctrl+t       │ Fuzzy file search                                 ║
+║  fe           │ Find and edit file                                ║
+║  fcd          │ Fuzzy cd                                          ║
+║  z name       │ Jump to directory                                 ║
+║  ll           │ List files (with icons)                           ║
+║  cat file     │ View with syntax highlight                        ║
+║                                                                    ║
+║  GIT SHORTCUTS                                                    ║
+║  ────────────────────────────────                                 ║
+║  gs           │ git status                                        ║
+║  ga           │ git add                                           ║
+║  gc           │ git commit                                        ║
+║  gp           │ git push                                          ║
+║  gl           │ git pull                                          ║
+║  glog         │ Pretty git log                                    ║
+║                                                                    ║
+║  QUICK ACTIONS                                                    ║
+║  ────────────────────────────────                                 ║
+║  t            │ Start tmux                                        ║
+║  v            │ Open neovim                                       ║
+║  update       │ Update system                                     ║
+║  weather      │ Show weather                                      ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+💡 Pro Tip: Press Space in Neovim to see ALL available commands!

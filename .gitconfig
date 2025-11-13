@@ -1,0 +1,101 @@
+# Git Configuration
+# Copy to ~/.gitconfig
+
+[user]
+    # Set your name and email
+    name = Your Name
+    email = your.email@example.com
+
+[core]
+    editor = nvim
+    autocrlf = input
+    excludesfile = ~/.gitignore_global
+
+[init]
+    defaultBranch = main
+
+[pull]
+    rebase = false
+
+[push]
+    default = current
+    autoSetupRemote = true
+
+[color]
+    ui = auto
+    branch = auto
+    diff = auto
+    status = auto
+
+[color "branch"]
+    current = yellow bold
+    local = green bold
+    remote = cyan bold
+
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse
+
+[color "status"]
+    added = green bold
+    changed = yellow bold
+    untracked = red bold
+
+[alias]
+    # Short forms
+    st = status -sb
+    co = checkout
+    br = branch
+    ci = commit
+    aa = add --all
+    
+    # Commits
+    cm = commit -m
+    ca = commit --amend
+    can = commit --amend --no-edit
+    
+    # Logs
+    l = log --oneline --graph --decorate
+    ll = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    last = log -1 HEAD --stat
+    
+    # Diff
+    d = diff
+    ds = diff --staged
+    dc = diff --cached
+    
+    # Stash
+    sl = stash list
+    sp = stash pop
+    ss = stash save
+    
+    # Pull/Push
+    pl = pull
+    ps = push
+    pf = push --force-with-lease
+    
+    # Undo
+    undo = reset HEAD~1 --mixed
+    unstage = reset HEAD --
+    
+    # Show
+    show-files = diff-tree --no-commit-id --name-only -r
+    
+    # Clean
+    clean-branches = !git branch --merged | grep -v '\\*\\|main\\|master\\|develop' | xargs -n 1 git branch -d
+    
+    # Better blame
+    blame-line = blame -L
+
+[diff]
+    tool = nvimdiff
+
+[merge]
+    tool = nvimdiff
+    conflictstyle = diff3
+
+[help]
+    autocorrect = 1
