@@ -1,6 +1,5 @@
 # 🚀 Ultimate Linux Development Environment Setup
 
-Your complete, modern Linux development environment with Neovim, tmux, fzf, and all the goodies!
 
 ## 📦 What's Included
 
